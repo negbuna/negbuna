@@ -8,7 +8,7 @@ class Me {
     private String funFact = "I can speak and code in 3 languages!";
 
     public String greet() {
-        return "Hi, I'm " + name + " and I'm " + age ". " I am currently interested in " + interests[0] + " and " + interests[1] + ".";
+        return "Hi, I'm " + name + " and I'm " + age ". I am currently interested in " + interests[0] + " and " + interests[1] + ".";
     }
 
     public String aboutMe() {
