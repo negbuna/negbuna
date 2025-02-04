@@ -1,22 +1,21 @@
-```java
-class Me {
-    private String name = "Nathan";
-    private int age = 16;
-    private String[] interests = {"app development", "machine learning"}; 
-    private String funFact = "I can speak and code in 3+ languages!";
+```cpp
+#include <iostream>
+using namespace std;
 
-    public String greet() {
-        return "Hi, I'm " + name + " and I'm " + age ". I am currently interested in " + interests[0] + " and " + interests[1] + ".";
-    }
+struct Me {
+    string name = "Nathan";
+    int age = 16;
+    string interests[2] = {"Machine Learning", "App Development"};
 
-    public String aboutMe() {
-        return "A fun fact about me is that " + funFact + "!";
+    void introduce() {
+        cout << name << " | " << age << endl;
+        cout << "Interests: " << interests[0] << ", " << interests[1] << endl;
     }
-    
-    public static void main() {
-        Me me = new Me();
-        System.out.println(me.greet());
-        System.out.println(me.aboutMe());
-    }
+};
+
+int main() {
+    Me me;
+    me.introduce();
+    return 0;
 }
 ```
