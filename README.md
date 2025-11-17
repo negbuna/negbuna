@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="./images/DOAWK.jpg" alt="pic" width="800" />
+  <img src="./images/math.jpg" alt="embarrassing" width="800" />
 </p>
