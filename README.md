@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="./images/standing.jpg" alt="embarrassing" />
+  <img src="./images/standing.png" alt="embarrassing" />
 </p>
